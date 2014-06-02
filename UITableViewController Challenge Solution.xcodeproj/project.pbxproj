@@ -21,6 +21,7 @@
 		9A72C546193C1C3700191F19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A72C528193C1C3700191F19 /* UIKit.framework */; };
 		9A72C54E193C1C3700191F19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A72C54C193C1C3700191F19 /* InfoPlist.strings */; };
 		9A72C550193C1C3700191F19 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A72C54F193C1C3700191F19 /* UITableViewController_Challenge_SolutionTests.m */; };
+		9A72C55B193C23AB00191F19 /* ZWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A72C55A193C23AB00191F19 /* ZWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9A72C54B193C1C3700191F19 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		9A72C54D193C1C3700191F19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A72C54F193C1C3700191F19 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		9A72C559193C23AB00191F19 /* ZWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZWTest.h; path = ../ZWTest.h; sourceTree = "<group>"; };
+		9A72C55A193C23AB00191F19 /* ZWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZWTest.m; path = ../ZWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9A72C536193C1C3700191F19 /* Main.storyboard */,
 				9A72C539193C1C3700191F19 /* ZWViewController.h */,
 				9A72C53A193C1C3700191F19 /* ZWViewController.m */,
+				9A72C559193C23AB00191F19 /* ZWTest.h */,
+				9A72C55A193C23AB00191F19 /* ZWTest.m */,
 				9A72C53C193C1C3700191F19 /* Images.xcassets */,
 				9A72C52B193C1C3700191F19 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A72C55B193C23AB00191F19 /* ZWTest.m in Sources */,
 				9A72C531193C1C3700191F19 /* main.m in Sources */,
 				9A72C535193C1C3700191F19 /* ZWAppDelegate.m in Sources */,
 				9A72C53B193C1C3700191F19 /* ZWViewController.m in Sources */,
